@@ -1,0 +1,25 @@
+package lpa;
+
+import java.util.Scanner;
+
+public class Atvstring23 {
+
+	public static void main(String[] args) {
+    Scanner ler = new Scanner(System.in);
+    
+    System.out.print("Informe o salario do funcionario: ");
+    double salario = ler.nextDouble();
+    System.out.print("Infome quantos anos o funcionario ja trabalha dentro da empresa: ");
+    int anos = ler.nextInt();
+	
+	double bonus;
+	if (anos <=3) {
+		bonus = salario * 0.05;
+	}
+		else {
+			bonus = salario * 0.07;
+		}
+			System.out.print("Quanto de bonus ele recebeu: " + bonus); 
+		}
+	}
+    
