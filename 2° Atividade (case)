@@ -1,0 +1,50 @@
+package lpa;
+
+import java.util.Scanner;
+
+public class Atvstring16 {
+
+	public static void main(String[] args) {
+    
+		Scanner ler = new Scanner(System.in);
+	    System.out.println("Insira um dia entre Domingo a Sabado: ");
+	    String dia = ler.next();
+		String domingo, segunda, terca, quarta, quinta, sexta, sabado;
+	    switch(dia) {
+	    
+	    case ("domingo"):
+	    System.out.println("O dia informado da semana e o 1°");
+	    break;
+	    
+	    case ("segunda"):
+	    System.out.println("O dia informado da semana e o 2°");
+	    break;
+	    
+	    case ("terca"):
+        System.out.println("O dia informado da semana e o 3°");
+		break;
+		
+	    case ("quarta"):
+		System.out.println("O dia informado da semana e o 4°");
+		break;
+		
+	    case ("quinta"):
+		System.out.println("O dia informado da semana e o 5°");
+		break;
+		
+	    case ("sexta"):
+		System.out.println("O dia informado da semana e o 6°");
+		break;
+		
+	    case ("sabado"):
+		System.out.println("O dia informado da semana e o 7°");
+		break;    
+	    
+	    default:
+	    	System.out.println("Dia da semana invalido! Insira novamente o dia: ");
+		}
+
+	}
+
+	}
+
