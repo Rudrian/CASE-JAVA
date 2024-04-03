@@ -1,0 +1,72 @@
+package lpa;
+
+import java.util.Scanner;
+
+public class Atvstring17 {
+
+	public static void main(String[] args) {
+		Scanner ler = new Scanner(System.in);
+	    System.out.println("Insira um mes entre janeiro a dezembro: ");
+	    String mes = ler.next();
+		String janeiro, fevereiro, marco, abril, maio, junho, julho, agosto, setembro, outubro, novembro, dezembro;
+	    switch(mes) {
+	    
+	    case ("janeiro"):
+	    System.out.println("O mês informado e o 1°");
+	    break;
+	    
+	    case ("fevereiro"):
+	    System.out.println("O mês informado e o 2°");
+	    break;
+	    
+	    case ("marco"):
+        System.out.println("O mês informado e o 3°");
+		break;
+		
+	    case ("abril"):
+		System.out.println("O mês informado e o 4°");
+		break;
+		
+	    case ("maio"):
+		System.out.println("O mês informado e o 5°");
+		break;
+		
+	    case ("junho"):
+		System.out.println("O mês informado e o 6°");
+		break;
+		
+	    case ("julho"):
+		System.out.println("O mês informado e o 7°");
+		break;    
+	    
+	    case ("agosto"):
+	    System.out.println("O mês informado e o 8°");
+		break;    
+			
+	    case ("setembro"):
+		System.out.println("O mês informado e o 9°");
+	    break;    
+			
+	    case ("outubro"):
+		System.out.println("O mês informado e o 10°");
+		break;    
+			
+	    case ("novembro"):
+		System.out.println("O mês informado e o 11°");
+		break;    
+			
+	    case ("dezembro"):
+		System.out.println("O mês informado e o 12°");
+		break;    
+			
+	    default:
+	    	System.out.println("Mês invalido! Insira novamente o mês: ");
+		}
+
+	}
+
+
+
+
+	}
+
