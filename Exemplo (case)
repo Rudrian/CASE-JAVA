@@ -1,0 +1,35 @@
+package lpa;
+
+import java.util.Scanner;
+
+public class exemplo4 {
+
+	public static void main(String[] args) {
+    
+		Scanner ler = new Scanner(System.in);
+		
+		System.out.println("Escolha um numero de 1 a 5");
+		int numero = ler.nextInt();
+		
+		switch (numero) {
+		case 1:
+		System.out.println("O numero escolhido foi o 1");
+		break;
+	    case 2:
+		System.out.println("O numero escolhido foi o 2");
+		break;
+        case 3:
+	    System.out.println("O numero escolhido foi o 3");
+	    break;
+	    case 4:
+		System.out.println("O numero escolhido foi o 4");
+		break;
+	    case 5:
+		System.out.println("O numero escolhido foi o 5");
+		break;
+		
+		default:
+			System.out.println("O numero escolhido é inválido!! INSIRA um numero entre 1 a 5");
+	}
+}
+}
